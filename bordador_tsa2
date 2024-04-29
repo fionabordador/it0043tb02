@@ -6,7 +6,7 @@
     <title>Bordador_TSA2</title>
 </head>
 
-<body backround="feu-bg.png" marginwidth="200px">
+<body background="wp2698866.jpg" marginwidth="200px">
     <img src="https://storage.googleapis.com/bukas-website-v3-prd/website_v3/data_sync/partner/profile_photo/feutech_10.png" alt=""
     height="120px"/>
     <font face="Arial">
@@ -18,12 +18,12 @@
                 </font>
                 <font size="4">
 <p>
-    Following the announcement from the City Government of Manila, classes and work operations at FEU Tech are suspended tomorrow, <font color="green"><strong>May 1, 2024</strong></font>, due to a Regular Holiday in commemoration of Labor Day.
+    Following the announcement from the City Government of Manila, classes and work operations at FEU Tech are suspended tomorrow, <strong>May 1, 2024</strong></font>, due to a Regular Holiday in commemoration of Labor Day.
 </p>
 <p>
     Please stay posted for updates on the resumption of classes. 
 </p>
-<font color="green" size="5">
+<size="5">
     <p><b>Keep safe, Tamaraws.</b></p>
 </font>
              </font>
@@ -35,5 +35,4 @@
     </font>
     
 </body>
-
 </html>
