@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto+Slab:wght@100..900&family=Sedan+SC&display=swap');
+
+body {
+    text-align: center; 
+    background-image: url("wp2698866.jpg");
+    background-size: cover;
+    margin:0;
+  }
+ .img{
+
+    text-align:left
+ }
+
+.container {
+ text-align: center;
+ margin:0 auto;
+ max-width: 600px;
+ padding: 20px;
+
+  }
+  h1{
+    color:green;
+    font-size: 7em;
+  }
+  .h2{
+    font-size: 1.5em;
+    color:red;
+  }
+  h3{
+    color:darkgreen;
+    font-size: 3em;
+    text-align: center;
+  }
+  h4{
+    color:white;
+    font-size: 1em;
+    text-align: center;
+  }
+  .font{
+        font-family: "Roboto Slab", serif;
+
+        font-style: normal;
+  }
+  .align{
+    font-family: "Roboto Slab", serif;
+    font-size: 1em;
+    text-align: center;
+  
+  }
+  
+ 
+  
