@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Be Vietnam Pro;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(225, 226, 228);
+}
+
+.main{
+    width:50%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(16, 11, 11);
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#box1 {
+    background-color: #f7cbe2;
+}
+
+#box2 {
+    background-color: #f781be;
+}
+
+#box3 {
+    background-color: #e62a8b;
+}
+
+.ctrlbuttons{
+    background-color: #f6b9d7;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ctrlbuttons .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.reset-btn{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.boxpanel{
+    padding: 9px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f781be;
+}
+
+.ctrlbuttons button, .ctrlbuttons input{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.ctrlbuttons button{
+    background-color: #d10870;
+    color: white;
+}
+
+.ctrlbuttons input{
+    width: 50px;
+    text-align: center;
+}
