@@ -291,6 +291,7 @@ ul li a:hover {
   transition: transform var(--transition-time);
   width: calc(50% - 2rem); 
   box-sizing: border-box;
+  text-align: center; /* Center align the text */
 }
 
 .work__item:hover {
@@ -304,12 +305,6 @@ ul li a:hover {
   margin-bottom: 0.5rem;
 }
 
-.work__item p {
-  font-size: 1rem;
-  color: var(--text-light);
-  margin-bottom: 1rem;
-}
-
 .work__item a {
   font-size: 1rem;
   color: blue;
@@ -320,9 +315,73 @@ ul li a:hover {
 .work__item a:hover {
   text-decoration: underline;
 }
+
+.work__image {
+  width: 50%;
+  height: 50px;
+  margin-bottom: 0.5rem; /* Space between the image and the title */
+  border-radius: 10px;
+}
+.services {
+  padding: 6rem 4rem;
+  background-color: #ffffff;
+}
+
+.services__container {
+  max-width: var(--max-width);
+  margin: auto;
+  text-align: center;
+}
+
+.services__container h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.service__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.service__item {
+  background-color: #f4eaf7;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  width: calc(50% - 2rem);
+  box-sizing: border-box;
+}
+
+.service__item:hover {
+  transform: scale(1.05);
+}
+
+.service__icon {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.service__item h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color-dark);
+  margin-bottom: 1rem;
+}
+
+.service__item p {
+  font-size: 1rem;
+  color: var(--text-light);
+}
 .testimonials {
   padding: 6rem;
-  background-color: #ffffff;
+  background-color: #f4eaf7;
   color: var(--text-dark);
 }
 
@@ -346,7 +405,7 @@ ul li a:hover {
 }
 
 .testimonial__item {
-  background-color: #f4eaf7;
+  background-color: #ffffff;
   padding: 0.7rem;
   border-radius: 10px;
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
@@ -578,8 +637,38 @@ ul li a:hover {
     transform: scale(1);
   }
 }
+@media (max-width: 1200px) {
+  .section {
+    padding: 3rem 2rem;
+  }
+  .about,
+  .works,
+  .testimonials,
+  .contact {
+    padding: 5rem 2rem;
+  }
+}
+@media (max-width: 992px) {
+  .section__container,
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 
-@media (max-width: 750px) {
+  .contact__info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact__details,
+  .contact__form {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
   nav .checkbox {
     display: block;
   }
@@ -668,7 +757,7 @@ ul li a:hover {
     text-align: center;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .section__container {
     flex-direction: column-reverse;
     align-items: center;
@@ -676,7 +765,6 @@ ul li a:hover {
     padding: 2rem 1rem;
     min-height: 100vh;
   }
-
   .contact__form {
     order: 1;
     width: 100%;
@@ -689,5 +777,16 @@ ul li a:hover {
     margin-bottom: 2rem;
   }
 }
+@media (max-width: 400px) {
+.image {
+  order: 1;
+  width: 100%;
+  text-align: center;
+}
 
-  
+.image img {
+  width: min(15rem, 100%);
+  max-width: 100%;
+  height: auto;
+}
+} 
