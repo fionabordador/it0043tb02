@@ -732,6 +732,20 @@ ul li a:hover {
 }
 
 @media (max-width: 768px) {
+  .nav__content ul {
+        display: none;
+        flex-direction: column;
+    }
+    .nav__content input[type="checkbox"]:checked ~ ul {
+        display: flex;
+    }
+    .section__container {
+        flex-direction: column;
+    }
+    .content {
+        max-width: 100%;
+        text-align: center;
+    }
   nav .checkbox {
     display: block;
   }
@@ -760,11 +774,7 @@ ul li a:hover {
   .image {
     grid-area: 1/1/2/2;
   }
-  .about__image img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-  }
+
   .section__container {
     padding: 5rem 1rem 3rem 1rem;
     text-align: center;
@@ -778,7 +788,6 @@ ul li a:hover {
     width: 70vw;
     margin-top: 8rem;
   }
-
   .action__btns {
     margin: auto;
   }
@@ -856,15 +865,15 @@ ul li a:hover {
   }
 }
 @media (max-width: 400px) {
-.image {
-  order: 1;
-  width: 100%;
-  text-align: center;
-}
+  .image {
+    order: 1;
+    width: 100%;
+    text-align: center;
+  }
 
-.image img {
-  width: min(15rem, 100%);
-  max-width: 100%;
-  height: auto;
-}
+  .image img {
+    width: min(15rem, 100%);
+    max-width: 100%;
+    height: auto;
+  }
 } 
