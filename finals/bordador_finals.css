@@ -323,8 +323,8 @@ ul li a:hover {
   border-radius: 10px;
 }
 .services {
-  padding: 6rem 4rem;
-  background-color: #ffffff;
+  padding: 9rem 7rem;
+  background-color: white;
 }
 
 .services__container {
@@ -337,14 +337,14 @@ ul li a:hover {
   font-size: 2.5rem;
   font-weight: 600;
   color: var(--text-dark);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
+
 .service__items {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
 }
 
 .service__item {
@@ -352,17 +352,18 @@ ul li a:hover {
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
+  transition: transform var(--transition-time);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  width: calc(50% - 2rem);
-  box-sizing: border-box;
 }
 
 .service__item:hover {
   transform: scale(1.05);
 }
 
-.service__icon {
+.service__item i {
   font-size: 3rem;
   color: var(--primary-color);
   margin-bottom: 1rem;
@@ -371,12 +372,13 @@ ul li a:hover {
 .service__item h3 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--primary-color-dark);
+  color: var(--primary-color);
   margin-bottom: 1rem;
 }
 
 .service__item p {
   font-size: 1rem;
+  line-height: 1.5;
   color: var(--text-light);
 }
 .testimonials {
@@ -442,7 +444,7 @@ ul li a:hover {
 
 .contact {
   padding: 6rem 9rem;
-  background-color:#f4eaf7; /* Light background color */
+  background-color:#ffffff; /* Light background color */
   text-align: center;
 }
 .conact_n{
@@ -742,6 +744,13 @@ ul li a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+  .services {
+    padding: 3rem 1rem;
+}
+
+.services__container h2 {
+    font-size: 2rem;
+}
 }
 @media (max-width: 700px) {
 
