@@ -1,1 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Fiona Bordador</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="#">Fiona Bordador</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check" />
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="section__container">
+            <div class="image">
+                <img src="pyons.jpg" alt="profile" />
+            </div>
+            <div class="content">
+                <h1 class="title">
+                    Hi! , I'm <b>Fiona Bordador</b><br>and I'm a
+                    <b class="typing-text">UI/UX Designer and Web Developer</b>
+                </h1>
+                <p class="description">
+                    Fiona's exceptional product design ensures our website's success. With a strong background in both
+                    design principles and technical skills, I specialize in turning ideas into interactive and
+                    user-friendly interfaces that not only look great but also function seamlessly. Highly recommended.
+                </p>
+                <div class="social__icons2">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </div>
+                <div class="action__btns">
+                    <a href="pyons.pdf" class="download__cv">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about__container">
+            <div class="about__image">
+                <img src="pyons2.jpg" alt="About Me" />
+            </div>
+            <div class="about__content">
+                <h2>About Me</h2>
+                <h3>I'm a UI/UX Designer and <br>Web Developer</h3>
+                <p>Hello! I'm Fiona Bordador, a dedicated UI/UX Designer and Web Developer with a passion for creating
+                    seamless digital experiences. I hold a Bachelor of Science in Information Technology in Business
+                    Analytics from FEU Tech, where I developed strong skills in user-centered design and front-end
+                    development.</p>
+                <p>With 3 years of experience, I've worked on various projects ranging from mobile app design to
+                    responsive web development. At Chismis Tech, I've led design initiatives and collaborated with
+                    cross-functional teams to deliver innovative solutions that enhance user experiences.</p>
+                <p>I'm excited about the opportunity to bring my skills to FEU Tech, contributing to impactful digital
+                    experiences for the academic community. I look forward to the possibility of joining a team that
+                    values innovation and excellence in technology.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="works">
+        <div class="works__container">
+            <h2>My Works</h2>
+            <div class="work__items">
+                <div class="work__item">
+                    <h3>Technical Summative 1</h3>
+                    <a href="Bordador_Sevillano_TSA1.pdf" target="_blank">CLICK ME TO VIEW TSA 1</a>
+                </div>
+                <div class="work__item">
+                    <h3>Technical Summative 2</h3>
+                    <a href="https://fionabordador.github.io/it0043tb02/bordador_tsa2.html" target="_blank">CLICK ME TO
+                        VIEW TSA 2</a>
+                </div>
+                <div class="work__item">
+                    <h3>Technical Summative 3</h3>
+                    <a href="https://fionabordador.github.io/it0043tb02/Bordador_tsa3" target="_blank">CLICK ME TO
+                        VIEW TSA 3</a>
+                </div>
+                <div class="work__item">
+                    <h3>Technical Summative 4</h3>
+                    <a href="https://fionabordador.github.io/it0043tb02/Bordador_tsa4.html" target="_blank">CLICK ME TO VIEW TSA 4</a>
+                </div>
+                <div class="work__item">
+                    <h3>Technical Summative 5</h3>
+                    <a href="https://sophiasevillano.github.io/it0043tb02/bordador_sevillano_tsa5.html" target="_blank">CLICK ME TO VIEW TSA 5</a>
+                </div>
+                <div class="work__item">
+                    <h3>Technical Summative 6</h3>
+                    <a href="https://fionabordador.github.io/TSA6/bordador_sevillano_tsa6.html" target="_blank">CLICK ME TO VIEW TSA 6</a>
+                </div>
+                <div class="work__item">
+                    <h3>Technical Summative 7</h3>
+                    <a href="https://fionabordador.github.io/TSA6/bordador_sevillano_tsa6.html" target="_blank">CLICK ME TO VIEW TSA 7</a>
+                </div>
+                <div class="work__item">
+                    <h3>Technical Summative 8</h3>
+                    <a href="https://fionabordador.github.io/it0043tb02/TSA8/Bordador_Sevillano_tsa8.html" target="_blank">CLICK ME TO VIEW TSA 8</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="testimonials__container">
+            <h2>Testimonials</h2>
+            <div class="testimonial__items">
+                <div class="testimonial__item">
+                    <img src="client1.jpg" alt="Client Image" class="testimonial__image">
+                    <h3>Sarah Mitchell</h3>
+                    <p>"Fiona's exceptional product design ensures our website's success. I love it. Highly recommended."</p>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                </div>
+                <div class="testimonial__item">
+                    <img src="client2.jpg" alt="Client Image" class="testimonial__image">
+                    <h3>Jason Turner</h3>
+                    <p>"Working with Fiona was a delight. Her attention to detail and creativity are unmatched."</p>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                </div>
+                <div class="testimonial__item">
+                    <img src="client3.jpg" alt="Client Image" class="testimonial__image">
+                    <h3>Emily Johnson</h3>
+                    <p>"Fiona's ability to turn our vision into reality was impressive. Her designs are both beautiful
+                        and functional."</p>
+                        <div class="stars">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                </div>
+                <div class="testimonial__item">
+                    <img src="client4.jpg" alt="Client Image" class="testimonial__image">
+                    <h3>Michael Anderson</h3>
+                    <p>"Fiona's exceptional product design ensures our website's success. I Highly recommended her as a Web Developer."</p>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                </div>
+                <div class="testimonial__item">
+                    <img src="client5.jpg" alt="Client Image" class="testimonial__image">
+                    <h3>Olivia Davis</h3>
+                    <p>"Working with Fiona was a delight. Her attention to detail and creativity are unmatched."</p>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                </div>
+                <div class="testimonial__item">
+                    <img src="client6.jpg" alt="Client Image" class="testimonial__image">
+                    <h3>Daniel Thompson</h3>
+                    <p>"Fiona's ability to turn our vision into reality was impressive. Her designs are both beautiful
+                        and functional."</p>
+                        <div class="stars">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact__container">
+            <h2 class="conact_n">Contact Me</h2>
+            <div class="contact__info">
+                <div class="contact__details">
+                    <p><i class="ri-mail-line"></i> 202310579@fit.edu.ph</p>
+                    <p><i class="ri-phone-line"></i> 0123456789</p>
+                    <div class="social__icons">
+                        <a href="#"><i class="ri-facebook-fill"></i></a>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                    </div>
+
+                </div>
+                <form class="contact__form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__content">
+            <p>&copy; 2024 Fiona Bordador. All rights reserved.</p>
+            <div class="social__icons">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
