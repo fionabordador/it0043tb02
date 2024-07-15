@@ -96,7 +96,7 @@ ul li a:hover {
 }
 
 .section {
-  background-color:#f4eaf7;
+  background-color:#f7e2fa;
   padding: 5rem 7rem;
 }
 
@@ -202,7 +202,7 @@ ul li a:hover {
 }
 .about {
   padding: 7rem 6rem;
-  background-color:#ffffff;
+  background-color:#f4eaf7;
 }
 
 .about__container {
@@ -258,10 +258,69 @@ ul li a:hover {
   color: var(--text-light);
   margin-bottom: 1rem;
 }
+.skills {
+  margin-top: 2rem;
+}
+
+.skills h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.skill {
+  margin-bottom: 1rem;
+}
+
+.skill p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 25px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: white;
+}
+
+.progress.html {
+  width: 90%;
+  background-color: var(--primary-color);
+}
+
+.progress.css {
+  width: 85%;
+  background-color: var(--secondary-color);
+}
+
+.progress.js {
+  width: 75%;
+  background-color: #f0ad4e;
+}
+
+.progress.uiux {
+  width: 80%;
+  background-color: #5bc0de;
+}
 
 .works {
   padding: 7rem 4rem;
-  background-color: var(--extra-light);
+  background-color:#f7e2fa;
 }
 
 .works__container {
@@ -332,13 +391,15 @@ ul li a:hover {
   max-width: var(--max-width);
   margin: auto;
   text-align: center;
+  
 }
 
 .services__container h2 {
   font-size: 2.5rem;
   font-weight: 600;
   color: var(--text-dark);
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  
 }
 
 
@@ -346,13 +407,13 @@ ul li a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
+  
 }
 
 .service__item {
-  background-color: #f4eaf7;
-  padding: 2rem;
+  background-color: #f7e2fa;
+  padding:3rem;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform var(--transition-time);
   display: flex;
   flex-direction: column;
@@ -384,7 +445,7 @@ ul li a:hover {
 }
 .testimonials {
   padding: 6rem;
-  background-color: #f4eaf7;
+  background-color: #f7e2fa;
   color: var(--text-dark);
 }
 
@@ -411,7 +472,6 @@ ul li a:hover {
   background-color: #ffffff;
   padding: 0.7rem;
   border-radius: 10px;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
   transition: var(--transition-time);
   text-align: center; /* Center align text and images */
 }
@@ -445,7 +505,7 @@ ul li a:hover {
 
 .contact {
   padding: 6rem 9rem;
-  background-color:#ffffff; /* Light background color */
+  background-color:#f4eaf7; /* Light background color */
   text-align: center;
 }
 .conact_n{
