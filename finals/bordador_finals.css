@@ -97,7 +97,7 @@ ul li a:hover {
 
 .section {
   background-color:#f4eaf7;
-  padding: 4rem 6rem;
+  padding: 5rem 7rem;
 }
 
 .section__container {
@@ -174,8 +174,8 @@ ul li a:hover {
 }
 
 .image img {
-    width: min(28rem, 100%); /* Adjust the size as needed */
-    border-radius: 100%;
+  width: min(25rem, 90%);
+  border-radius: 100%;
     box-shadow: 0 0 50px rgba(232, 23, 232, 0.5); /* Adjust the glow color and intensity here */
     transition: transform var(--transition-time), box-shadow var(--transition-time);
   }
@@ -201,16 +201,17 @@ ul li a:hover {
   color: #c51f90;
 }
 .about {
-  padding: 7rem 5rem;
+  padding: 7rem 6rem;
   background-color:#ffffff;
 }
 
 .about__container {
+  min-height: 80vh;
   max-width: var(--max-width);
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 4rem;
   align-items: center;
 }
 
@@ -221,10 +222,10 @@ ul li a:hover {
 }
 
 .about__image img {
-    width: min(28rem, 100%); /* Adjust the size as needed */
-    border-radius: 100%;
-    box-shadow: 0 0 50px rgba(232, 23, 232, 0.5); /* Adjust the glow color and intensity here */
-    transition: transform var(--transition-time), box-shadow var(--transition-time);
+  width: min(28rem, 100%);
+  border-radius: 100%;
+  box-shadow: 0 0 50px rgba(232, 23, 232, 0.5);
+  transition: transform var(--transition-time), box-shadow var(--transition-time);
 }
 
 .about__image img:hover {
@@ -696,7 +697,9 @@ ul li a:hover {
   ul li a {
     font-size: 1.25rem;
   }
-
+  .image {
+    grid-area: 1/1/2/2;
+  }
   .about__image img {
     width: 100%;
     height: auto;
@@ -712,7 +715,8 @@ ul li a:hover {
   }
 
   .image {
-    grid-area: 1/1/2/2;
+    width: 70vw;
+    margin-top: 8rem;
   }
 
   .action__btns {
@@ -724,6 +728,7 @@ ul li a:hover {
   }
 
   .about__image, .about__content {
+  
     text-align: center;
   }
 
@@ -753,7 +758,11 @@ ul li a:hover {
 }
 }
 @media (max-width: 700px) {
-
+  .image {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 70vw;
+    margin-top: 8rem;
+  }
   .contact__info {
     flex-direction: column;
     align-items: center;
