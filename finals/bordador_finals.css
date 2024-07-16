@@ -320,7 +320,7 @@ ul li a:hover {
 
 .works {
   padding: 7rem 4rem;
-  background-color:#f7e2fa;
+  background-color: #ffffff;
 }
 
 .works__container {
@@ -337,51 +337,64 @@ ul li a:hover {
 }
 
 .work__items {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1rem;
   justify-content: center;
 }
 
 .work__item {
-  background-color: #ffffff;
-  padding: 1rem;
+  background-color: #f4eaf7;
+  padding: 0;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform var(--transition-time);
-  width: calc(50% - 2rem); 
-  box-sizing: border-box;
-  text-align: center; /* Center align the text */
+  overflow: hidden;
+  text-align: center;
 }
 
 .work__item:hover {
-  transform: scale(1.05);
+  transform: translateY(-5px);
+}
+
+.work__image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.work__text {
+  background-color: #f4eaf7;
+  padding: 1rem;
+}
+
+.work__item h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.work__item a {
+  font-size: 1rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--transition-time);
+}
+
+.work__item a:hover {
+  color: var(--primary-color-dark);
 }
 
 .work__item h3 {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--primary-color);
-  margin-bottom: 0.5rem;
+
 }
 
-.work__item a {
-  font-size: 1rem;
-  color: blue;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.work__item a:hover {
-  text-decoration: underline;
-}
-
-.work__image {
-  width: 50%;
-  height: 50px;
-  margin-bottom: 0.5rem; /* Space between the image and the title */
-  border-radius: 10px;
-}
 .services {
   padding: 9rem 7rem;
   background-color: white;
@@ -774,7 +787,11 @@ ul li a:hover {
   .image {
     grid-area: 1/1/2/2;
   }
-
+  .about__image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
   .section__container {
     padding: 5rem 1rem 3rem 1rem;
     text-align: center;
@@ -788,6 +805,7 @@ ul li a:hover {
     width: 70vw;
     margin-top: 8rem;
   }
+
   .action__btns {
     margin: auto;
   }
@@ -805,9 +823,32 @@ ul li a:hover {
     width: min(15rem, 100%);
   }
 
-  .work__item {
-    width: calc(100% - 2rem);
-  }
+  .works {
+    padding: 4rem 2rem;
+}
+
+.works__container h2 {
+    font-size: 2rem;
+}
+
+.work__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work__item {
+    width: 100%;
+    max-width: 300px;
+}
+
+.work__image {
+    height: 200px;
+}
+
+.work__text {
+    padding: 1rem;
+}
 
   .contact__form,
   .contact__details {
@@ -865,7 +906,7 @@ ul li a:hover {
   }
 }
 @media (max-width: 400px) {
-  .image {
+ .image {
     order: 1;
     width: 100%;
     text-align: center;
