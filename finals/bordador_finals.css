@@ -359,9 +359,9 @@ ul li a:hover {
 
 .work__image {
   width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 1rem;
+  height: 50%;
+  object-fit: cover;
+  border-bottom: 5px solid #ffffff;
 }
 
 .work__text {
