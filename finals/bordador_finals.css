@@ -424,7 +424,7 @@ ul li a:hover {
 }
 
 .service__item {
-  background-color: #f7e2fa;
+  background-color: rgba(247, 226, 250, 0.8);
   padding:3rem;
   border-radius: 10px;
   transition: transform var(--transition-time);
@@ -432,6 +432,9 @@ ul li a:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-size: cover; /* Ensure the background image covers the entire box */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
 }
 
 .service__item:hover {
@@ -440,21 +443,39 @@ ul li a:hover {
 
 .service__item i {
   font-size: 3rem;
-  color: var(--primary-color);
+  color: rgb(255, 255, 255);
   margin-bottom: 1rem;
+  text-shadow: 2px 2px 5px white;
 }
 
 .service__item h3 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--primary-color);
+  color: #ffffff;
   margin-bottom: 1rem;
+  text-shadow: 3px 3px 6px white;
 }
 
 .service__item p {
   font-size: 1rem;
   line-height: 1.5;
-  color: var(--text-light);
+  color: white;
+  text-shadow: 2px 2px 5px white;
+}
+.service__item--design {
+  background-image: url(ux.jpg);
+}
+
+.service__item--development {
+  background-image: url(web.png);
+}
+
+.service__item--analytics {
+  background-image: url(analytics.jpg);
+}
+
+.service__item--support {
+  background-image: url(service.jpg);
 }
 .testimonials {
   padding: 6rem;
